@@ -4,11 +4,13 @@ font-family: "Open Sans", serif;
 *{
     margin: 120px,160px,80px,160px;
     position: center;
+
 }
 #banner{
     display: flex;
     justify-content: space-between;
-    gap: 64px;   
+    gap: 64px; 
+    border-radius: 24px;  
 }
 .monument{
  position: absolute;
@@ -360,7 +362,7 @@ letter-spacing: 0%;
 text-align: left;
 
 }
-.card-icon1{
+.card-icon1 ,.card-icon2{
     /* Frame 2087325509 */
 position: static;
 width: 1280px;
@@ -387,6 +389,10 @@ background: gainsboro;
 .card1{
     display: flex;
     justify-content: space-evenly;
+    border-radius: 24px;
+    
+   
+    
     
 }
 .news1{
@@ -491,4 +497,323 @@ text-align: left;
     border-radius: 24px;
 
 background: url(image);
+}
+.donate-today{
+    /* Frame 2087325516 */
+position: static;
+width: 1280px;
+height: 464px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.donation{
+    /* Donate Today */
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.description5{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.options{
+    
+
+/* Frame 2087325513 */
+position: static;
+width: 240px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+align-items: center;
+}
+
+.parent1{
+    /* Frame 2087325514 */
+position: static;
+width: 1071px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
+.input1{
+/* Frame 2087325514 */
+position: static;
+width: 1032px;
+height: 64px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.btn5{
+    font-family: Fira Sans;
+    position: static;
+    width: 139px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 13px 26px 13px 26px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    
+    border-radius: 8px;
+    
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    .st1{
+        border-radius: 24px;
+    
+    background: url(image);
+    }
+    .donate-today{
+        /* Frame 2087325516 */
+    position: static;
+    width: 1280px;
+    height: 464px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 80px 0px;
+
+}
+.fr{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.p{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.div{
+    /* Frame 2087325499 */
+position: static;
+width: 1232px;
+height: 160px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+
+background-image: url('../assets/quote-bg.png');
+background-repeat: no-repeat;
+border-radius: 16px;
+}
+.yunus{
+    /* Dr. Muhammad Yunus */
+position: static;
+width: 1232px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.btn4{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(0, 106, 80);
+    
+
+}
+
+.btn4::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.btn4:hover {
+    background: rgb(198, 228, 214);;
+    box-shadow: ;
+    color: rgb(0, 106, 80);
+}
+
+.button{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(0, 106, 80);
+}
+.button::before
+.button::after
+{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.button:hover{
+    background: rgb(198, 228, 214);;
+    box-shadow: ;
+    color: rgb(0, 106, 80);
+}
+.button{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(0, 106, 80);
+}
+.btn5{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(0, 106, 80);
+}
+.btn5::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn5:hover {
+    background: rgb(198, 228, 214);;
+    box-shadow: ;
+    color: rgb(0, 106, 80);
 }
