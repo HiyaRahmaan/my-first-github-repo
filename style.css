@@ -174,8 +174,9 @@ flex-grow: 1;
 margin: 0px 24px;
 box-sizing: border-box;
 border-radius: 16px;
-
+font-size: 14px;
 background: rgba(84, 144, 245, 0.2);
+
 }
 .box2{
     /* Frame 2087325499 */
@@ -198,7 +199,7 @@ flex-grow: 1;
 margin: 0px 24px;
 box-sizing: border-box;
 border-radius: 16px;
-
+font-size: 14px;
 background: rgb(198, 228, 214);
 }
 .box3{
@@ -222,7 +223,7 @@ flex-grow: 1;
 margin: 0px 24px;
 box-sizing: border-box;
 border-radius: 16px;
-
+font-size: 14px;
 background: rgb(247, 235, 207);
 }
 .btn1{
@@ -806,6 +807,7 @@ text-align: left;
     z-index: 1;
     cursor: pointer;
     background-color: rgb(0, 106, 80);
+    
 }
 .btn5::after{
     content: "";
@@ -816,4 +818,267 @@ text-align: left;
     background: rgb(198, 228, 214);;
     box-shadow: ;
     color: rgb(0, 106, 80);
+}
+.btn3{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(255, 194, 57);
+}
+.btn3::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn3:hover {
+    background: rgb(247, 235, 207);
+    box-shadow: ;
+    color: rgb(14, 14, 14);
+}
+.btn2{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(9, 161, 92);
+}
+.btn2::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn2:hover {
+    background: rgb(198, 228, 214);
+    box-shadow: ;
+    color: rgb(14, 14, 14);
+}
+.btn1{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(84, 144, 245);
+}
+.btn1::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn1:hover {
+    background: rgb(84, 144, 245, 0.2);
+    box-shadow: ;
+    color: rgb(14, 14, 14);
+}
+
+.options:hover{
+    background: rgb(198, 228, 214);
+    transition: all 0.5s;
+
+}
+.bg{
+    background-color: rgb(198, 228, 214);
+}
+.newsletter{
+    /* Frame 3 */
+position: static;
+width: 750px;
+height: 235px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 64px;
+}
+.newsbg{
+    /* Frame 2087325517 */
+position: static;
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+margin: 80px 0px;
+
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+}
+.heading6{
+    /* Subscribe Newsletter */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.des6{
+    /* Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth. */
+position: static;
+width: 622px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.des7{
+    /* We promise not to spam you! */
+position: static;
+width: 622px;
+height: 19px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.input2{
+    /* Frame 2087325514 */
+position: static;
+width: 600px;
+height: 25px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 18px 40px 18px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+border: none;
+}
+.btn6{
+ /* Frame 2087325504 */
+position: static;
+width: 150px;
+height: 60px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+font-size: 18px;
+font-weight: 600px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+
+border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+}
+.btn6{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(0, 106, 80);
+}
+.btn6::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.btn6:hover {
+    background: rgb(198, 228, 214);
+    box-shadow: ;
+    color: white;
+}
+.complex{
+    display: flex;
 }
